@@ -11,73 +11,68 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
 	<link href="https://fonts.googleapis.com/css2?family=Caveat&family=Poppins:wght@300&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Covered+By+Your+Grace&display=swap" rel="stylesheet">
+
+
 </head>
 
 <body>
 
-	<header class="header_area">
-		<div class="main_menu">
-			<nav class="navbar navbar-expand-lg navbar-light">
-				<div class="container">
-					<!-- Brand and toggle get grouped for better mobile display -->
-					<a class="navbar-brand logo_h" href="index.html" style="font-family: 'Covered By Your Grace', cursive; font-size: xx-large; color: rgb(73, 14, 150);">&#60;&#47;&nbsp;Chehak&nbsp;&#62; </a>
-					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-					 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<!-- Collect the nav links, forms, and other content for toggling -->
-					<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
-						<ul class="nav navbar-nav menu_nav justify-content-end">
-							<li class="nav-item"><a class="nav-link" href="#about_area">About</a></li>
-							<li class="nav-item"><a class="nav-link" href="#portfolio">Projects</a></li>
-							<li class="nav-item"><a class="nav-link" href="#footer">Contact</a></li>
-						</ul>
-					</div>
-				</div>
-			</nav>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: white; padding-right: 10vw; padding-left: 10vw;">
+		<!-- <a class="navbar-brand" href="#">Navbar</a> -->
+		<a class="navbar-brand" href="index.html" style="font-family: 'Covered By Your Grace', cursive; font-size: xx-large; color: rgb(73, 14, 150);">&#60;&#47;&nbsp;Chehak&nbsp;&#62; </a>
+		<!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+		  <span class="navbar-toggler-icon"></span>
+		</button> -->
+	  
+		<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+		  <ul class="navbar-nav ml-auto mt-2 mt-lg-0" style="font-weight: bolder;">
+			<li class="nav-item active">
+			  <a class="nav-link" href="#about_area">ABOUT <span class="sr-only">(current)</span></a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="#portfolio">PROJECTS</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="#footer">CONTACT</a>
+			</li>
+		  </ul>
 		</div>
-	</header>
+	  </nav>
+<br>
+<br>
+	
 	<!--================ End Header Area =================-->
 
-	<!--================ Start Home Banner Area =================-->
-	<section class="home_banner_area">
-		<div class="banner_inner">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-6">
-						<div class="banner_content">
-							<br>
-							<br>
-							<h2 style="font-size: 50px; font-family: 'Poppins', sans-serif; font-weight: bold;">Hey all, I'm Chehak <span class="wave">👋</span></h2>
-							<!-- <h1>I am Chehak Agrawal</h1> -->
-							<br>
-							<p style="font-size: 29px;  line-height: 40px; font-family: 'Caveat', cursive;">A passionate Software Developer having an experience of building Web applications
-								 with HTML / CSS / Bootstrap / Nodejs and some other cool libraries and frameworks.</p>
-							<div class="d-flex align-items-center">
-								<a class="primary_btn" href="#footer"><span>Contact me</span></a>
-								<a class="primary_btn tr-bg" href="index.html"><span>Get CV</span></a>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-6">
-						<div class="home_right_img">
-							<img class="" src="img/banner/headerimg.jpg" alt="">
-						</div>
-					</div>
+	<div class="d-flex flex-row flex-wrap" style="padding-left: 8vw; padding-right: 8vw;">
+		<div class="p-2 col-lg-6 col-md-6">
+				<br>
+				<br>
+				<h2 style="font-size: 50px; font-family: 'Poppins', sans-serif; font-weight: bold;">Hey all, I'm Chehak <span class="wave">👋</span></h2>
+				<br>
+				<p style="font-size: 29px;  line-height: 40px; font-family: 'Caveat', cursive;">A passionate Software Developer having an experience of building Web applications
+					 with HTML / CSS / Bootstrap / Nodejs and some other cool libraries and frameworks.</p>
+				<div class="d-flex align-items-center">
+					<a class="primary_btn" href="#footer"><span>Contact me</span></a>
+					<a class="primary_btn tr-bg" href="index.html"><span>Get CV</span></a>
 				</div>
+		</div>
+		<div class="p-2 col-lg-6 col-md-6">
+			<div class="home_right_img">
+				<img class="img-fluid w-100" src="img/banner/headerimg.jpg" alt="Responsive image">
 			</div>
 		</div>
-	</section>
-	<!--================ End Home Banner Area =================-->
+	  </div>
+
+
+	<!--======== End Home Banner Area =================-->
 
 	<!--================ Start About Us Area =================-->
 	<section class="about_area section_gap" id="about_area">
 		<div class="container">
-			<div class="row justify-content-start align-items-center">
+			<div class="row justify-content-start align-items-center flex-wrap">
 				<div class="col-lg-5">
 					<div class="about_img">
 						<img class="" src="img/about-us.png" alt="">
@@ -316,6 +311,10 @@
 		
 		</footer>
 		
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+
 	<!--================End Footer Area =================-->
 </body>
 
